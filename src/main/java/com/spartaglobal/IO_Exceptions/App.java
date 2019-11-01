@@ -1,5 +1,7 @@
 package com.spartaglobal.IO_Exceptions;
 
+import com.spartaglobal.IO_Exceptions.exceptions.ExceptionExamples;
+
 import java.io.IOException;
 
 /**
@@ -16,12 +18,21 @@ public class App
 
         //byteReaderManager.charReader();
 
-        BufferedFileManager bufferedFileManager = new BufferedFileManager();
+      /*  BufferedFileManager bufferedFileManager = new BufferedFileManager();
         try {
             bufferedFileManager.readerWriter();
         }catch (IOException e){
             e.printStackTrace();
         }
+*/
+
+//        RatingsManager ratingsManager = new RatingsManager();
+//        ratingsManager.searchForRatings(7.5);
+
+        ExceptionExamples exceptions = new ExceptionExamples();
+        exceptions.readfile();
+
+
     }
 
 }
